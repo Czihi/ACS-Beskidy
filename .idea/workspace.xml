@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7601c7ab-5113-4054-bd25-be609c43eb27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/parts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Background.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Background.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RightPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightPanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596195175040</updated>
-      <workItem from="1596195220105" duration="27503000" />
+      <workItem from="1596195220105" duration="28645000" />
     </task>
     <task id="LOCAL-00001" summary="Added main view">
       <created>1596209352750</created>
@@ -108,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596215002422</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added responsiveness">
+      <created>1596224124544</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596224124544</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <confirmRemoveEmptyChangelist value="2" />
     <MESSAGE value="Added main view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added main view" />
+    <MESSAGE value="Added responsiveness" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added responsiveness" />
   </component>
 </project>
