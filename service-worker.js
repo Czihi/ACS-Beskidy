@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ACS-Beskidy/precache-manifest.0c26e8633f9d325556d111599afb3be2.js"
+  "/ACS-Beskidy/precache-manifest.32561406fcf6e8eed1a56dd37b37e486.js"
 );
 
 workbox.clientsClaim();
