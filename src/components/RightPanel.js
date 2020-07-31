@@ -3,6 +3,8 @@ import Repair from "./Repair";
 
 const RightPanel = () => {
     return (<div className="repairSection">
+        <p className="miniTitle">Naprawa</p>
+        <hr className="line" />
         <Repair
             src="phone"
             label="Telefony, faxy"
@@ -27,6 +29,7 @@ const RightPanel = () => {
             src="radio"
             label="CB Radio"
         />
+        <hr className="line" />
         <Repair
             src="parts"
             label="Sprzedaż części"
