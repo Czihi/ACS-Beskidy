@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7601c7ab-5113-4054-bd25-be609c43eb27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Background.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LeftPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Repair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RightPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Topbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Repair.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Repair.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RightPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RightPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,8 +87,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596195175040</updated>
-      <workItem from="1596195220105" duration="12956000" />
+      <workItem from="1596195220105" duration="18453000" />
     </task>
+    <task id="LOCAL-00001" summary="Added main view">
+      <created>1596209352750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596209352750</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,16 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <confirmRemoveEmptyChangelist value="2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Topbar.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added main view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added main view" />
   </component>
 </project>

@@ -23,6 +23,14 @@ const RightPanel = () => {
             src="tools"
             label="Elektronarzędzia"
         />
+        <Repair
+            src="radio"
+            label="CB Radio"
+        />
+        <Repair
+            src="parts"
+            label="Sprzedaż części"
+        />
     </div>)
 };
 export default RightPanel

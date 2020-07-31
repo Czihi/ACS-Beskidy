@@ -9,7 +9,7 @@ const Topbar=()=>{
             <div className="groupButton">
             <button className="but">usługi</button>
             <button className="but" >dojazd</button>
-            <button className="but contact">konktakt</button>
+            <button className="but contact">kontakt</button>
             </div>
         </div>
     </div>)

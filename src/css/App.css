@@ -49,14 +49,16 @@
 }
 .groupRec {
   text-align: center;
-  max-width: 80%;
+  width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   display: flex;
+  height: auto
 }
 .blueRec{
   background-color: rgba(3, 47, 85, 0.75);
-  width:65%
+  width:65%;
+  height: 810px;
 }
 .whiteRec{
   background-color: rgba(0, 0, 0, 0.75);
@@ -104,16 +106,21 @@ width: 20%
   justify-content: center;
 }
 .panasonic{
+  text-decoration: none;
   font-weight: 600;
-  margin-right: 1%;
   padding: 1%;
   border-radius: 10%;
   color: white;
   font-size: 35px;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.panasonic:hover{
+  text-decoration: none;
+  color: black;
+  background-color: white
+}
 .other{
-  margin-top: 1%;
+  margin-left: 2%;
   font-weight: 600;
   font-size: 35px;
   color: #6dc3cd
@@ -121,4 +128,46 @@ width: 20%
 .other2{
   font-size: 20px;
   color: #6dc3cd
+}
+.aboutGroup{
+  margin-top: 10%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+.line{
+  border-top: solid 2px white;
+}
+.adress{
+  margin-left: 8%;
+  width: 25%;
+  font-size: 15px;
+  color: #a7c5ee;
+}
+.phone{
+  line-height: 5px;
+}
+.open{
+  font-size: 25px;
+  font-style: italic;
+  color: #a7c5ee;
+}
+.link{
+  text-decoration: none;
+  font-size: 15px;
+  color: #a7c5ee;
+}
+.link:hover{
+  text-decoration: none;
+}
+.authors{
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+.madeBy{
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 15px;
+  color: #448;
 }
