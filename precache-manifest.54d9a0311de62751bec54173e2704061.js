@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/ACS-Beskidy/static/js/runtime~main.d8c1c124.js"
   },
   {
-    "revision": "b95f7c2c5792292015c3",
-    "url": "/ACS-Beskidy/static/js/main.b28a0828.chunk.js"
+    "revision": "27a45ad9c3541c9fa91b",
+    "url": "/ACS-Beskidy/static/js/main.bc5253e2.chunk.js"
   },
   {
-    "revision": "bd93da4c6f85c7a582dc",
-    "url": "/ACS-Beskidy/static/js/2.13350740.chunk.js"
+    "revision": "3a3d642ea99a8c20b64c",
+    "url": "/ACS-Beskidy/static/js/2.94e24c6f.chunk.js"
   },
   {
-    "revision": "b95f7c2c5792292015c3",
-    "url": "/ACS-Beskidy/static/css/main.4e731925.chunk.css"
+    "revision": "27a45ad9c3541c9fa91b",
+    "url": "/ACS-Beskidy/static/css/main.22af06d4.chunk.css"
   },
   {
-    "revision": "bd93da4c6f85c7a582dc",
+    "revision": "3a3d642ea99a8c20b64c",
     "url": "/ACS-Beskidy/static/css/2.5c743e86.chunk.css"
   },
   {
-    "revision": "9fd76891427bac412886a464b78b6742",
+    "revision": "2d140f65b36b7bd9e75e8bd3a9497a8b",
     "url": "/ACS-Beskidy/index.html"
   }
 ];
