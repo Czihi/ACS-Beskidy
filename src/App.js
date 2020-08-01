@@ -8,25 +8,45 @@ import {
 
 import Background from "./components/Background";
 import Topbar from "./components/Topbar";
-import Map from "./images/Map";
-
+import Map from "./components/Map";
+import Services from "./components/Services";
 
 
 class App extends Component {
-    update(){
-        if(document.getElementById("bg").offsetHeight>0) {
-            document.getElementById("mainDiv").style.height = document.getElementById("bg").offsetHeight + "px";
+    constructor(props) {
+        super(props);
+        this.update = this.update.bind(this);
+        this.handleLoad = this.handleLoad.bind(this)
+    }
+
+    update() {
+        try {
+            if (document.getElementById("bg").offsetHeight > 0) {
+                document.getElementById("mainDiv").style.height = document.getElementById("bg").offsetHeight + "px";
+            }
+        } catch (err) {
+            console.log("No bg element")
         }
     }
-    handleLoad(){
-        if(document.getElementById("bg").offsetHeight>0) {
-            document.getElementById("mainDiv").style.height = document.getElementById("bg").offsetHeight + "px";
+
+    handleLoad() {
+        try {
+            if (document.getElementById("bg").offsetHeight > 0) {
+                document.getElementById("mainDiv").style.height = document.getElementById("bg").offsetHeight + "px";
+            }
+        } catch (err) {
+            console.log("No bg element")
         }
     }
-    componentDidMount() {
-        this.update();
-        window.addEventListener('load',this.handleLoad.bind(this));
-        window.addEventListener("resize", this.update.bind(this));
+
+    addListeners() {
+        window.addEventListener('load', this.handleLoad);
+        window.addEventListener("resize", this.update);
+    }
+
+    removeListeners() {
+        window.removeEventListener('load', this.handleLoad);
+        window.removeEventListener("resize", this.update);
     }
 
     render() {
@@ -36,6 +56,7 @@ class App extends Component {
                 <Route path="/ACS-Beskidy" exact render={
                     () => {
                         document.title = "ACS Beskidy";
+                        this.addListeners();
                         return (
                             <div>
                                 <Background/>
@@ -43,13 +64,24 @@ class App extends Component {
                             </div>)
                     }
                 }/>
-                <Route path="/ACS-Beskidy/kontakt" exact render={
+                <Route path="/ACS-Beskidy/dojazd" exact render={
                     () => {
-                        document.title = "ACS Beskidy kontakt";
+                        document.title = "ACS Beskidy - dojazd";
+                        this.removeListeners();
                         return (
                             <div>
 
                                 <Map/>
+                            </div>)
+                    }
+                }/>
+                <Route path="/ACS-Beskidy/uslugi" exact render={
+                    () => {
+                        document.title = "ACS Beskidy - dojazd";
+                        this.removeListeners();
+                        return (
+                            <div>
+                                <Services/>
                             </div>)
                     }
                 }/>

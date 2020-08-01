@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7601c7ab-5113-4054-bd25-be609c43eb27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/AGD.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RTV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Telecommunication.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tools.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Background.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +51,12 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ReactProjects\acs-beskidy\src\components" />
+      <recent name="C:\ReactProjects\acs-beskidy\src\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\ReactProjects\acs-beskidy\public" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\ReactProjects\acs-beskidy\src\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,7 +96,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596195175040</updated>
-      <workItem from="1596195220105" duration="28645000" />
+      <workItem from="1596195220105" duration="28737000" />
+      <workItem from="1596284286328" duration="1290000" />
+      <workItem from="1596295086066" duration="15209000" />
     </task>
     <task id="LOCAL-00001" summary="Added main view">
       <created>1596209352750</created>
@@ -107,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596224124544</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed bugs">
+      <created>1596225588237</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596225588237</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +139,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -128,6 +151,7 @@
     <confirmRemoveEmptyChangelist value="2" />
     <MESSAGE value="Added main view" />
     <MESSAGE value="Added responsiveness" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added responsiveness" />
+    <MESSAGE value="Fixed bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs" />
   </component>
 </project>

@@ -46,6 +46,7 @@
 .groupButton {
     padding-top: 30px;
     display: flex;
+    justify-content: flex-end;
 }
 
 .but {
@@ -54,7 +55,7 @@
     border: 0;
     font-weight: 700;
     font-size: calc(1vw + 1vh);
-    width: 30%;
+
     margin-left: 5%
 }
 
@@ -155,7 +156,15 @@
 .panasonic:hover {
     text-decoration: none;
     color: black;
-    background-color: white
+    background-color: white;
+    transition: 0.2s;
+}
+.scale{
+    transition: 0.4s;
+}
+.scale:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
 }
 
 .other {
@@ -167,7 +176,7 @@
 
 .other2 {
     font-size: calc(1vw + 1vh);
-    color: #6dc3cd
+    color: #6dc3cd;
 }
 
 .aboutGroup {
@@ -198,6 +207,7 @@
 }
 
 .open {
+    margin-bottom: 0;
   font-size: calc(1.1vw + 1.1vh);
     font-style: italic;
     color: #a7c5ee;
@@ -235,6 +245,65 @@
     height: 600px;
 }
 
+.gradientBackground{
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to right, rgba(3, 47, 85, 0.5) 0%, rgba(167, 197, 238, 0.5) 100%);
+    z-index:-1;
+    padding: 20px;
+}
+
+.groupService{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.serviceTitle{
+    font-size: calc(1.2vw + 1.2vw);
+    color: #032f55;
+    font-weight: 700;
+    border-bottom: solid 3px #fff;
+}
+.serviceList{
+    font-size: calc(0.6vw + 0.6vw);
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right,  rgb(0, 0, 0) 0%, rgb(3, 47, 85) 100%);
+}
+
+.service{
+    box-shadow: 0 0 10px rgba(3, 47, 85, 0.5);
+    border: rgb(3, 47, 85) solid 2px;
+    padding: 1%;
+    border-radius: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+    flex: 1 1 270px;
+    margin-bottom: 1vw;
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.service:hover{
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.7);
+    transform: scale(1.05);
+}
+.head{
+    color: #032f55;
+    text-align: center;
+    font-weight: 900;
+    font-size: calc(2vw + 2vh);
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
 @media(max-width: 1000px){
   .groupRec{
     width:100%;
@@ -261,7 +330,30 @@
   .section{
   margin-bottom:5%
   }
+    .gradientBackground{
+        margin: 0;
+        width: 100%;
+    }
+
+    .serviceList{
+        font-size: 15px;
+    }
+    .serviceTitle{
+        font-size: 23px;
+    }
+    .head{
+        font-size: 15px;
+    }
 }
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 600px){
@@ -275,8 +367,13 @@
     width: 100%;
     margin: 0;
   }
+  .but2{
+    width:100%;
+      font-size: 20px;
+  }
   .but{
-    width:100%
+      width:100%;
+      font-size: 20px;
   }
   .groupButton{
     padding: 0;
@@ -291,6 +388,7 @@
   }
   .blueRec{
     width: 100%;
+      background-color: rgba(0, 0, 0, 0.75);
   }
   .whiteRec{
     width: 100%;
@@ -318,5 +416,8 @@
     margin-left:0;
     width:50%;
   }
+.authors{
+    display:none;
+}
 
 }

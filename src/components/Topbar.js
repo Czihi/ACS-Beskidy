@@ -10,8 +10,10 @@ const Topbar = () => {
         </div>
         <div className="rightTop">
             <div className="groupButton">
-                <button className="but">usługi</button>
-                <Link className="but" to="/ACS-Beskidy/kontakt">
+                <Link className="but" to="/ACS-Beskidy/uslugi">
+                <button className="but2">usługi</button>
+                </Link>
+                <Link className="but" to="/ACS-Beskidy/dojazd">
                     <button className="but2">dojazd</button>
                     </Link>
                     <button className="but contact">kontakt</button>
